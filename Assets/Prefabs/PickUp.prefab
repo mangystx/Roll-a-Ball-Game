@@ -122,6 +122,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead52d5ce32c52a4b9e3938cdb28e0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotationSpeed: 0
+  onCollectEffect: {fileID: 9163842254569548763, guid: 9dfeaf6e9c745bf4285aa15f80100f25, type: 3}
 --- !u!54 &-6777469568782236314
 Rigidbody:
   m_ObjectHideFlags: 0

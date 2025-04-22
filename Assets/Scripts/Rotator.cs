@@ -2,18 +2,12 @@ using UnityEngine;
 
 public class Rotator : MonoBehaviour
 {
-    public float RotationSpeed;
+    public float rotationSpeed;
     public GameObject onCollectEffect;
     
-    void Start()
+    private void Update()
     {
-        
-    }
-    
-    void Update()
-    {
-        transform.Rotate(0, RotationSpeed, 0);
-    
+        transform.Rotate(0, rotationSpeed, 0);
     }
     
     private void OnTriggerEnter(Collider other)
